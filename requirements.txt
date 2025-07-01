@@ -1,2 +1,3 @@
 bertopic
 jupyter
+plotly==5.24.1
