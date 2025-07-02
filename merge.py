@@ -4,7 +4,7 @@ import glob
 import os
 
 # Find all .json files in the 'original data' directory
-json_files = glob.glob('original data/*.json')
+json_files = glob.glob('fullfetcheddata/*.json')
 
 # Initialize an empty list to hold all records from all files
 merged_data = []
@@ -21,8 +21,8 @@ for file in json_files:
 # Ensure the output directory exists
 os.makedirs('merged data', exist_ok=True)
 
-# Write the combined data to a new file called merged.json in 'merged data'
-with open('merged data/merged.json', 'w', encoding='utf-8') as f:
+# Write the combined data to a new file called fullmerged.json in 'merged data'
+with open('fullmerged.json', 'w', encoding='utf-8') as f:
     # Dump the merged data as pretty-printed JSON
     json.dump(merged_data, f, ensure_ascii=False, indent=2)
 
