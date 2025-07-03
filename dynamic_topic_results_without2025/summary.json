@@ -1,0 +1,11 @@
+{
+  "total_documents": 28624,
+  "total_topics": 75,
+  "year_range": "2000 - 2024",
+  "total_years": 25,
+  "outlier_documents": 0,
+  "largest_topic_size": 1835,
+  "smallest_topic_size": 44,
+  "avg_topic_size": 381.6533333333333,
+  "processing_time": "2025-07-03T13:24:17.814859"
+}
